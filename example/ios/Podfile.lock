@@ -1,0 +1,57 @@
+PODS:
+  - Flutter (1.0.0)
+  - Google-Mobile-Ads-SDK (12.14.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - google_mobile_ads (7.0.0):
+    - Flutter
+    - Google-Mobile-Ads-SDK (~> 12.14.0)
+    - webview_flutter_wkwebview
+  - GoogleUserMessagingPlatform (3.1.0)
+  - tap_mind_ads_flutter (0.0.3):
+    - Flutter
+    - TapMindAdapter (~> 1.0.2)
+  - TapMindAdapter (1.0.2):
+    - TapMindSDK
+  - TapMindSDK (1.1.0):
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - google_mobile_ads (from `.symlinks/plugins/google_mobile_ads/ios`)
+  - tap_mind_ads_flutter (from `.symlinks/plugins/tap_mind_ads_flutter/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - TapMindAdapter
+    - TapMindSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  google_mobile_ads:
+    :path: ".symlinks/plugins/google_mobile_ads/ios"
+  tap_mind_ads_flutter:
+    :path: ".symlinks/plugins/tap_mind_ads_flutter/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  Google-Mobile-Ads-SDK: 4534fd2dfcd3f705c5485a6633c5188d03d4eed2
+  google_mobile_ads: df3008bafbe1f2ad6862f87334e560d2f047f902
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  tap_mind_ads_flutter: e6f0131dee06b62f645d717e5d8334caa53770ef
+  TapMindAdapter: 60161ae9a47c92b3650aba9894a958c9d9cc068b
+  TapMindSDK: e0bd78904e46d139d0efac8cc489775ace966a93
+  webview_flutter_wkwebview: 8ebf4fded22593026f7dbff1fbff31ea98573c8d
+
+PODFILE CHECKSUM: 263a3e327ec8c049d1083c4cdd9efcd73625e571
+
+COCOAPODS: 1.16.2
