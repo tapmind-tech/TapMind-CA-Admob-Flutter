@@ -1,5 +1,5 @@
 group = "com.tapmind.tap_mind_ads_flutter"
-version = "0.0.4"
+version = "0.0.2"
 
 buildscript {
     ext.kotlin_version = "2.1.0"

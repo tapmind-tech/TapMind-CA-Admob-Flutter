@@ -3,8 +3,8 @@
 # Run `pod lib lint tap_mind_ads_flutter.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'tap_mind_ads_flutter'
-  s.version          = '0.0.3'
+  s.name             = 'tap_mind_ads_admob'
+  s.version          = '0.0.2'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.

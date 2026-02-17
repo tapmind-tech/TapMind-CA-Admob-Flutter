@@ -1,6 +1,8 @@
 name: tap_mind_ads_admob
 description: "A Flutter plugin for integrating TapMind ads into your Flutter applications. Supports both Android and iOS platforms."
-version: 0.0.1
+version: 0.0.2
+homepage: https://github.com/tapmind-tech
+repository: https://github.com/tapmind-tech/tapmind
 
 environment:
   sdk: ^3.9.2
