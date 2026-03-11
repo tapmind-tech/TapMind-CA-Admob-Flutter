@@ -1,6 +1,4 @@
-## 0.0.2
+## 0.0.5
 
-* Initial release with TapMind ads integration for Android and iOS
-* Fixed podspec file name and internal pod name to match plugin name (tap_mind_ads_admob)
-* Support for Android (minSdk 24) and iOS (15.0+)
-* Integration with TapMind Custom Adapter for AdMob
+* Update Google Mobile Ads SDK to com.google.android.gms:play-services-ads:25.0.0 for android
+* Add various ad events to monitor and analyze all ad-related activities effectively
