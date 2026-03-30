@@ -1,4 +1,4 @@
-package com.example.flutter_tapmind_demo
+package com.admandroid
 
 import io.flutter.embedding.android.FlutterActivity
 
