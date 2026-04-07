@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'tap_mind_ads_admob'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.
@@ -15,7 +15,7 @@ A new Flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'TapMindAdapter', '1.0.4' 
+  s.dependency 'TapMindAdapter'
   s.platform = :ios, '15.0'
 
   # Flutter.framework does not contain a i386 slice.

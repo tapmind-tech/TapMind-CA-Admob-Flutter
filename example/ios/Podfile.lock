@@ -7,10 +7,10 @@ PODS:
     - Google-Mobile-Ads-SDK (~> 12.14.0)
     - webview_flutter_wkwebview
   - GoogleUserMessagingPlatform (3.1.0)
-  - tap_mind_ads_admob (0.0.5):
+  - tap_mind_ads_admob (0.0.7):
     - Flutter
-    - TapMindAdapter
-  - TapMindAdapter (2.1.1):
+    - TapMindAdapter (= 1.0.4)
+  - TapMindAdapter (1.0.4):
     - TapMindSDK
   - TapMindSDK (1.1.7):
     - Google-Mobile-Ads-SDK
@@ -47,8 +47,8 @@ SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 4534fd2dfcd3f705c5485a6633c5188d03d4eed2
   google_mobile_ads: df3008bafbe1f2ad6862f87334e560d2f047f902
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  tap_mind_ads_admob: 859138f2956006e8379ef02e67971971f9e4ffd9
-  TapMindAdapter: f3bed5d9c1e1b9721f965fba1d38361ba4f25e48
+  tap_mind_ads_admob: 10b986a58be93ebdd41f7a1506c84b07b81d00ca
+  TapMindAdapter: 320c325e30b59e95ab3fec0ef6dd88891a877bd6
   TapMindSDK: 6535e7490f65d3019c4d48d954acf1c5eb10458c
   webview_flutter_wkwebview: 8ebf4fded22593026f7dbff1fbff31ea98573c8d
 
