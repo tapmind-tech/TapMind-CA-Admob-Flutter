@@ -5,10 +5,10 @@ packages:
     dependency: transitive
     description:
       name: async
-      sha256: "758e6d74e971c3e5aceb4110bfd6698efc7f501675bcfe0c775459a8140750eb"
+      sha256: e2eb0491ba5ddb6177742d2da23904574082139b07c1e33b8503b9f46f3e1a37
       url: "https://pub.dev"
     source: hosted
-    version: "2.13.0"
+    version: "2.13.1"
   boolean_selector:
     dependency: transitive
     description:
@@ -45,10 +45,10 @@ packages:
     dependency: "direct main"
     description:
       name: cupertino_icons
-      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
+      sha256: "41e005c33bd814be4d3096aff55b1908d419fde52ca656c8c47719ec745873cd"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.8"
+    version: "1.0.9"
   fake_async:
     dependency: transitive
     description:
@@ -195,10 +195,11 @@ packages:
   tap_mind_ads_admob:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.5"
+      name: tap_mind_ads_admob
+      sha256: c5ae36e3b042b1c7d559452a2a4bc5f97c8a35d81ef10c53a3ad5ef2bda7eced
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.6"
   term_glyph:
     dependency: transitive
     description:
@@ -243,26 +244,26 @@ packages:
     dependency: transitive
     description:
       name: webview_flutter_android
-      sha256: "2a03df01df2fd30b075d1e7f24c28aee593f2e5d5ac4c3c4283c5eda63717b24"
+      sha256: "0f7fcd2c86bf36bdcf94881f7941ce0cbc4f8d104b9fdcd5fcbef90e2199db76"
       url: "https://pub.dev"
     source: hosted
-    version: "4.10.13"
+    version: "4.10.15"
   webview_flutter_platform_interface:
     dependency: transitive
     description:
       name: webview_flutter_platform_interface
-      sha256: "63d26ee3aca7256a83ccb576a50272edd7cfc80573a4305caa98985feb493ee0"
+      sha256: "1221c1b12f5278791042f2ec2841743784cf25c5a644e23d6680e5d718824f04"
       url: "https://pub.dev"
     source: hosted
-    version: "2.14.0"
+    version: "2.15.1"
   webview_flutter_wkwebview:
     dependency: transitive
     description:
       name: webview_flutter_wkwebview
-      sha256: "0d85e8bc5db9a7c49f6ff57cbeafc6cd8216ad9c9ebc70b2c4579d955698933a"
+      sha256: d7219cfabc6f5fc2032e0fa980ec36d71f308a35a823395af1abc34d9a2ede83
       url: "https://pub.dev"
     source: hosted
-    version: "3.24.1"
+    version: "3.24.2"
 sdks:
   dart: ">=3.9.2 <4.0.0"
   flutter: ">=3.35.1"

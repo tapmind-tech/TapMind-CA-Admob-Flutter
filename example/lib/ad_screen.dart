@@ -34,9 +34,9 @@ class _AdScreenState extends State<AdScreen> {
   // Ad Unit IDs (Banner & Native from original code)
   String get _bannerAdUnitId {
     if (Platform.isAndroid) {
-      return 'AndroidAdUnitID';
+      return 'ca-app-pub-2967653914154128/5364787835';
     } else if (Platform.isIOS) {
-      return 'iosAdUnitID';
+      return 'ca-app-pub-2967653914154128/8115509682';
     } else {
       throw UnsupportedError('Unsupported platform');
     }
@@ -44,9 +44,9 @@ class _AdScreenState extends State<AdScreen> {
 
   String get _nativeAdUnitId {
     if (Platform.isAndroid) {
-      return 'AndroidAdUnitID';
+      return 'ca-app-pub-2967653914154128/8222410102';
     } else if (Platform.isIOS) {
-      return 'iosAdUnitID';
+      return 'ca-app-pub-2967653914154128/4841838453';
     } else {
       throw UnsupportedError('Unsupported platform');
     }
@@ -55,9 +55,9 @@ class _AdScreenState extends State<AdScreen> {
   // Using test IDs for Interstitial and Rewarded as standard fallback
   String get _interstitialAdUnitId {
     if (Platform.isAndroid) {
-      return 'AndroidAdUnitID';
+      return 'ca-app-pub-2967653914154128/2324998439';
     } else if (Platform.isIOS) {
-      return 'iosAdUnitID';
+      return 'ca-app-pub-3940256099942544/4411468910';
     } else {
       throw UnsupportedError('Unsupported platform');
     }
@@ -65,9 +65,9 @@ class _AdScreenState extends State<AdScreen> {
 
   String get _rewardedAdUnitId {
     if (Platform.isAndroid) {
-      return 'AndroidAdUnitID';
+      return 'ca-app-pub-2967653914154128/4199404618';
     } else if (Platform.isIOS) {
-      return 'iosAdUnitID';
+      return 'ca-app-pub-2967653914154128/7823225012';
     } else {
       throw UnsupportedError('Unsupported platform');
     }
