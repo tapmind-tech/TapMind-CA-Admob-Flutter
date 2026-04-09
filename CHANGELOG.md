@@ -1,3 +1,8 @@
+## 0.0.9
+
+* Dart version 3.6 support added
+
+
 ## 0.0.8
 
 * Introduced standardized adapter structure across all mediation partners.
