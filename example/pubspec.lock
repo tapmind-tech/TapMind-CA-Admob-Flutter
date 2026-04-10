@@ -195,10 +195,11 @@ packages:
   tap_mind_ads_admob:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.7"
+      name: tap_mind_ads_admob
+      sha256: eb3e18a9b718dc265c2091f742387b55b7de0b3f04174afea36ff71c116cd12b
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.9"
   term_glyph:
     dependency: transitive
     description:

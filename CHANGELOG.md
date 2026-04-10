@@ -1,3 +1,8 @@
+## 0.0.10
+
+* Fixed Android build issue in Flutter projects due to incorrect Gradle configuration.
+* Resolved "unknown property 'android'" error during plugin evaluation.
+
 ## 0.0.9
 
 * Dart version 3.6 support added

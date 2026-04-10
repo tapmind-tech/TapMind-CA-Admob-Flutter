@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'tap_mind_ads_admob'
-  s.version          = '0.0.9'
+  s.version          = '0.0.10'
   s.summary          = 'A new Flutter plugin project.'
   s.description      = <<-DESC
 A new Flutter plugin project.

@@ -19,8 +19,8 @@ A Flutter plugin for integrating TapMind ads into your Flutter applications. Thi
 
 ## Requirements
 
-- Flutter SDK: >=3.3.0
-- Dart SDK: ^3.9.2
+- Flutter SDK: >=3.27.0
+- Dart SDK: ^3.6.0
 - Android: minSdkVersion 24
 - iOS: 15.0 or higher
 
