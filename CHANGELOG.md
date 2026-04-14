@@ -1,3 +1,9 @@
+## 0.0.11
+
+* Fixed the gradle mismatch issue
+* update to adapter version 2.1.5
+
+
 ## 0.0.10
 
 * Fixed Android build issue in Flutter projects due to incorrect Gradle configuration.

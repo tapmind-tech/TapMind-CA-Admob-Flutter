@@ -1,18 +1,5 @@
 group = "com.tapmind.tap_mind_ads_flutter"
-version = "0.0.10"
-
-buildscript {
-    ext.kotlin_version = "2.1.0"
-    repositories {
-        google()
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.9.1")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
-    }
-}
+version = "0.0.11"
 
 allprojects {
     repositories {
@@ -61,7 +48,7 @@ android {
     }
 
     dependencies {
-        implementation("io.github.tapmind-tech:customadapter-admob:2.1.4")
+        implementation("io.github.tapmind-tech:customadapter-admob:2.1.5")
         testImplementation("org.jetbrains.kotlin:kotlin-test")
         testImplementation("org.mockito:mockito-core:5.0.0")
     }

