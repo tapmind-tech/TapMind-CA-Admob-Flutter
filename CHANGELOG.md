@@ -1,3 +1,9 @@
+## 0.0.12
+
+* Compressed size of adapter
+* Update to adapter version 2.1.7
+
+
 ## 0.0.11
 
 * Fixed the gradle mismatch issue
