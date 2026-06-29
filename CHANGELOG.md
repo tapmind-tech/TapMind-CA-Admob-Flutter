@@ -1,3 +1,9 @@
+## 1.0.0
+
+* Reduce Response Size
+* Remove Error Logs
+* Update to adapter version 2.1.14
+
 ## 0.0.12
 
 * Compressed size of adapter

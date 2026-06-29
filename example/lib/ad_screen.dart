@@ -57,7 +57,7 @@ class _AdScreenState extends State<AdScreen> {
     if (Platform.isAndroid) {
       return 'ca-app-pub-2967653914154128/2324998439';
     } else if (Platform.isIOS) {
-      return 'ca-app-pub-3940256099942544/4411468910';
+      return 'ca-app-pub-2967653914154128/2352440981'; //'ca-app-pub-3940256099942544/4411468910';
     } else {
       throw UnsupportedError('Unsupported platform');
     }
@@ -219,41 +219,77 @@ class _AdScreenState extends State<AdScreen> {
       adUnitId: _rewardedAdUnitId,
       request: const AdRequest(),
       rewardedAdLoadCallback: RewardedAdLoadCallback(
-        onAdLoaded: (ad) {
+        onAdLoaded: (RewardedAd ad) {
+          print("Rewarded loaded");
+
           ad.fullScreenContentCallback = FullScreenContentCallback(
-            onAdDismissedFullScreenContent: (ad) {
-              ad.dispose();
-              _rewardedAd = null;
-              if (mounted) Navigator.pop(context);
+            onAdShowedFullScreenContent: (ad) {
+              print("Rewarded shown");
             },
-            onAdFailedToShowFullScreenContent: (ad, err) {
-              ad.dispose();
-              _rewardedAd = null;
-              if (mounted) Navigator.pop(context);
+            onAdImpression: (ad) {
+              print("Rewarded impression");
+            },
+            onAdDismissedFullScreenContent: (ad) {
+              print("Rewarded dismissed");
+            },
+            onAdFailedToShowFullScreenContent: (ad, error) {
+              print("Show failed: $error");
             },
           );
-          _rewardedAd = ad;
-          if (mounted) {
-            _adShown = true;
-            _rewardedAd!.show(
-              onUserEarnedReward: (ad, reward) {
-                debugPrint(
-                  'User earned reward: ${reward.amount} ${reward.type}',
-                );
-              },
-            );
-          }
+
+          ad.show(
+            onUserEarnedReward: (ad, reward) {
+              print("Reward earned");
+            },
+          );
         },
-        onAdFailedToLoad: (err) {
-          if (mounted) {
-            setState(() {
-              error = 'Failed to load a rewarded ad :: Reason : ${err.message}';
-            });
-          }
-          debugPrint('Failed to load a rewarded ad: ${err.message}');
+        onAdFailedToLoad: (LoadAdError error) {
+          print("Load failed");
+          print("Code: ${error.code}");
+          print("Domain: ${error.domain}");
+          print("Message: ${error.message}");
         },
       ),
     );
+    // RewardedAd.load(
+    //   adUnitId: _rewardedAdUnitId,
+    //   request: const AdRequest(),
+    //   rewardedAdLoadCallback: RewardedAdLoadCallback(
+    //     onAdLoaded: (ad) {
+    //       ad.fullScreenContentCallback = FullScreenContentCallback(
+    //         onAdDismissedFullScreenContent: (ad) {
+    //           ad.dispose();
+    //           _rewardedAd = null;
+    //           if (mounted) Navigator.pop(context);
+    //         },
+    //         onAdFailedToShowFullScreenContent: (ad, err) {
+    //           ad.dispose();
+    //           _rewardedAd = null;
+    //           if (mounted) Navigator.pop(context);
+    //         },
+    //       );
+    //       _rewardedAd = ad;
+    //       if (mounted) {
+    //         _adShown = true;
+    //         _rewardedAd!.show(
+    //           onUserEarnedReward: (ad, reward) {
+    //             debugPrint(
+    //               'User earned reward: ${reward.amount} ${reward.type}',
+    //             );
+    //           },
+    //         );
+    //       }
+    //     },
+    //     onAdFailedToLoad: (err) {
+    //       if (mounted) {
+    //         setState(() {
+    //           error = 'Failed to load a rewarded ad :: Reason : ${err.message}';
+    //         });
+    //       }
+    //       debugPrint('Failed to load a rewarded ad: ${err.message}');
+    //     },
+    //   ),
+    // );
   }
 
   void _disposeAllAds() {
